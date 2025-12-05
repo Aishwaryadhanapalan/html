@@ -1,0 +1,31 @@
+<title>Linear and Radial Gradient</title>
+<style>
+
+
+.linear {
+  font-size:40px;
+  background: linear-gradient(to right, blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+-5
+}
+
+.radial {
+  font-size:40px;
+  background: radial-gradient( yellow, orange, red);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
+
+
+<body>
+
+<h2>Linear Gradient</h2>
+<div class="linear">Nature is the physical world and all life within it, providing essential resources like food diverse</div>
+
+<h2>Radial Gradient</h2>
+<div class="radial">Nature is the physical world and all life within it, providing essential resources like food diverse</div>
+
+</body>
+</html>
